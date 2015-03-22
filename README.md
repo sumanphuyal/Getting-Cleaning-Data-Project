@@ -1,6 +1,6 @@
 # Getting-Cleaning-Data-Project
 
-Course project of Getting and Cleaning Data (https://class.coursera.org/getdata-012) , Session 012, march 2015
+Course project of Getting and Cleaning Data (https://class.coursera.org/getdata-012) , Session 012, March 2015
 
 ## Project Description ( as mention in course project page ) 
 
@@ -28,6 +28,22 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     3. README.MD:- The file that describes about project. 
     4. run_analysis.R: R script to clean data as described in above project requirements. 
 
+## File/Folder structure expected
+    ---
+     |--- run_analysis.R
+     |--- getdata_projectfiles_UCI HAR Dataset/
+          |--- UCI HAR Dataset
+               |--- features.txt
+               |--- activity_labels.txt
+               |--- test
+                    |--- subject_test.txt
+                    |--- X_test.txt
+                    |--- y_test.txt
+               |--- train
+                    |--- subject_train.txt
+                    |--- X_train.txt
+                    |--- y_train.txt
+  
 ## Steps to run run_analysis.R script:
     1. Download zipped data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  and unzip into a folder.
     2. After unzipping you should see folder named "getdata_projectfiles_UCI HAR Dataset".
