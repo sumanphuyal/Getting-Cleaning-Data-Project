@@ -23,7 +23,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Files in this Repository
-    1. Codebook.md: Codebook that describes the variables, the data and the transformation process.
+    1. CodeBook.md: Codebook that describes the variables, the data and the transformation process.
     2. LICENSE:- License terms for code.
     3. README.MD:- The file that describes about project. 
     4. run_analysis.R: R script to clean data as described in above project requirements. 
